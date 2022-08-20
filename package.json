@@ -1,0 +1,40 @@
+{
+  "name": "findhotel",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "vitest": "vitest",
+    "cypress": "cypress open",
+    "test": "cypress run && vitest"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.90.0",
+    "@reduxjs/toolkit": "^1.8.4",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.3",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/redux-logger": "^3.0.9",
+    "@vitejs/plugin-react": "^2.0.1",
+    "autoprefixer": "^10.4.8",
+    "cypress": "^10.6.0",
+    "postcss": "^8.4.16",
+    "redux-logger": "^3.0.6",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vite-plugin-checker": "^0.4.9",
+    "vitest": "^0.22.1"
+  }
+}
