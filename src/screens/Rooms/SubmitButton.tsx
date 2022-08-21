@@ -18,7 +18,6 @@ const SubmitButton = () => {
     try {
       const configuration = rm.compile(rooms)
       search.set("rooms", configuration)
-      console.log(decodeURIComponent(search.toString()))
       navigate(`?${decodeURIComponent(search.toString())}`)
     } catch (e) {}
   }, [rooms, search])
